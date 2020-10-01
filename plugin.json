@@ -1,0 +1,17 @@
+{
+  "id": "nodebb-plugin-DPlayer",
+  "url": "https://github.com/294007813/nodebb-plugin-DPlayer",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "filter:parse.post", "method": "parsePost"},
+    { "hook": "filter:parse.raw", "method": "parseRaw"},
+    { "hook": "filter:composer.formatting", "method": "registerFormating"}
+  ],
+  "scripts": [
+    "static/client.js"
+  ],
+  "modules": {
+    "DPlayer.js": "./static/DPlayer.min.js"
+  },
+  "languages": "languages"
+}

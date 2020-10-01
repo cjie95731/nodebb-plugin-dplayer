@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-dplayer",
+  "version": "0.0.2",
+  "description": "A NodeBB plugin to html5 video player",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/294007813/nodebb-plugin-DPlayer.git"
+  },
+  "keywords": [
+    "nodebb",
+    "DPlayer"
+  ],
+  "author": {
+    "name": "294007813",
+    "email": "294007813@qq.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/294007813/nodebb-plugin-DPlayer/issues"
+  },
+  "homepage": "https://github.com/294007813/nodebb-plugin-DPlayer#readme",
+  "nbbpm": {
+    "compatibility": "^1.8.0"
+  },
+  "peerDependencies": {
+    "nodebb-plugin-markdown": "~8.4"
+  },
+  "__npminstall_done": "Sat Aug 15 2020 10:30:31 GMT-0400 (GMT-04:00)",
+  "_from": "nodebb-plugin-dplayer@0.0.2",
+  "_resolved": "https://registry.npm.taobao.org/nodebb-plugin-dplayer/download/nodebb-plugin-dplayer-0.0.2.tgz"
+}
